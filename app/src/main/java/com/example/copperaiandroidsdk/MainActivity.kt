@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         val intent = Intent(this, AIAgentActivity::class.java)
+        intent.putExtra("url","https://www.yavar.ai")
         startActivity(intent)
     }
 }

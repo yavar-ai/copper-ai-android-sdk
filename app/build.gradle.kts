@@ -42,9 +42,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(project(":copperaiandroidsdklib"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(project(":copperaiandroidsdklib"))
+//    implementation(project(":copperaiandroidsdklib"))
+    implementation("com.yavar:copperaiandroidsdk:1.0")
 }
