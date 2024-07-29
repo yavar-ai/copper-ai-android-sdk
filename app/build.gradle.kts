@@ -47,5 +47,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
 //    implementation(project(":copperaiandroidsdklib"))
-    implementation("com.yavar:copperaiandroidsdk:1.0")
+//    implementation("com.yavar:copperaiandroidsdk:1.0")
 }
